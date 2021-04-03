@@ -34,6 +34,7 @@ module.exports = [
     id: "wZwMQORc4ao",
     title: "PHP 8 (Guia de Atualização da Linguagem)",
     duration: "13 min",
-    price: "Free"
+    price: "Free",
+    featured: true
   },
 ]

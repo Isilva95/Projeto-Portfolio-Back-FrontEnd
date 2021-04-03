@@ -3,6 +3,7 @@
 :root {
   --color-green: #50fa7b;
   --color-rocket: #7159c1;
+  --color-featured: #f7d05f;
 }
 
 * {
@@ -149,7 +150,6 @@ header {
 }
 
 /* === MODAL.ACTIVE === */
-
 .modal-overlay.active {
   opacity: 1;
   visibility: visible;
@@ -163,4 +163,16 @@ iframe {
 }
 
 /*=== FEATURED ===*/
+.featured-wrapper.card__image-container {
+  position: relative;
+}
 
+.featured {
+  position: absolute;
+  background: var(--color-featured);
+  color: #111;
+  padding: 2px 8px;
+  left: 5px;
+  border-radius: 16px;
+  top: -10px;
+}
