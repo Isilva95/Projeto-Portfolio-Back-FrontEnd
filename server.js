@@ -19,7 +19,7 @@ server.get("/", function (req, res) {
     avatar_url: "https://avatars.githubusercontent.com/u/56745096?s=460&u=03fdf19f1cc3ae3ada14eb6aacdf935ef476734d&v=4",
     name: "Isac Santos",
     role: "Aluno - Rocketseat",
-    description: 'Desenvolvedor Front End - aprendendo a programar na <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>',
+    description: 'Desenvolvedor Front End e Back End - aprendendo a programar na <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a>',
     links: [
       { name: "Github", url: "https://github.com/Isilva95" },
       { name: "Linkedin", url: "https://www.linkedin.com/in/isac-santos-b67b8515a/" }
